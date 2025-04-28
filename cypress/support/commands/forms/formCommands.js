@@ -99,7 +99,7 @@ Cypress.Commands.add('validate_required_fields_border', () => {
   formPage.firstName()
     .should('be.visible')
     .should('have.css', 'border-color')
-    .and('equal', 'rgb(220, 53, 69)'); // vermelho padrão Bootstrap
+    .and('equal', 'rgb(220, 53, 69)');
 
   formPage.lastName()
     .should('be.visible')
