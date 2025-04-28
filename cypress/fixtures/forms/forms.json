@@ -1,0 +1,10 @@
+
+{
+  "user_required_fields": {
+    "firstName": "faker.person.firstName()",
+    "lastName": "faker.person.lastName()",
+    "email": "faker.internet.email()",
+    "mobile": "faker.string.numeric(10)",
+    "address": "faker.location.streetAddress()"
+  }
+}
