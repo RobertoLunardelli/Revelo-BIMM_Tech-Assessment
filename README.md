@@ -45,6 +45,7 @@ cd Revelo-BIMM_Tech-Assessment
 
 ```bash
 npm install
+npm install rimraf --save-dev
 ```
 
 ### 3. Open Cypress Test Runner
@@ -57,10 +58,21 @@ Select a test to run manually.
 ### 4. Run Cypress Tests in Headless Mode
 
 ```bash
-npx cypress run
+npm run test
 ```
 
 ---
+📊 Test Report (Mochawesome)
+After running npm run test, reports will be generated at:
+
+```bash
+/cypress/reports/mochawesome-report/mochawesome.html
+```
+To open the report manually:
+
+Go to the folder /cypress/reports/mochawesome-report
+
+Open the file mochawesome.html in your browser
 
 ## ✍️ Author
 
